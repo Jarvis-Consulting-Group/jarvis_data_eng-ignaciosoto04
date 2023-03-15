@@ -42,7 +42,8 @@ The fourth step was to create a program that was installed on each server to col
 The last step was to deploy the monitoring app and see the information collected before. I used crontab to execute the host_usage.sh script every minute.
 
 ## Architecture
-Draw a cluster diagram with three Linux hosts, a DB, and agents (use draw.io website). Image must be saved to the `assets` directory.
+
+![Architecture](assets/architecture.drawio.png)
 
 ## Scripts
 Shell script description and usage (use markdown code block for script usage)
