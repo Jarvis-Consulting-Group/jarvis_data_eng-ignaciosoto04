@@ -43,7 +43,7 @@ The last step was to deploy the monitoring app and see the information collected
 
 ## Architecture
 
-![Architecture](assets/architecture.drawio.png)
+![Architecture](assets/architecture.jpg)
 
 ## Scripts
 Shell script description and usage (use markdown code block for script usage)
