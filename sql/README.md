@@ -286,7 +286,7 @@ FROM cd.members
 ORDER BY joindate  
 ```
 
-#### Question 9: 
+#### Question 9: Output the facility id that has the highest number of slots booked. Ensure that in the event of a tie, all tieing results get output.
 
 For this question, the result can be obtained by the following query and using LIMIT to get the first row 
 ```
@@ -308,7 +308,7 @@ WHERE rank = 1
 
 ## String
 
-#### Question 1: 
+#### Question 1: Output the names of all members, formatted as 'Surname, Firstname'
 
 For this question, CONCAT is used to join strings.
 ```
@@ -325,7 +325,7 @@ FROM  cd.members
 WHERE telephone LIKE '(%' AND telephone LIKE '%)%'
 ```
 
-#### Question 3: 
+#### Question 3: You'd like to produce a count of how many members you have whose surname starts with each letter of the alphabet. Sort by the letter, and don't worry about printing out a letter if the count is 0.
 
 For this question, the SUBSTR function is used to extract each letter for all the surnames.
 ```
