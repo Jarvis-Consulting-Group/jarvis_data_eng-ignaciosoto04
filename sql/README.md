@@ -158,9 +158,10 @@ WHERE m.firstname='David' and m.surname='Farrell'
 
 #### Question 2: How can you produce a list of the start times for bookings for tennis courts, for the date '2012-09-21'? Return a list of start time and facility name pairings, ordered by the time.
 
-For this question, JOIN is used to get to columns from different tables; WHERE, to find the tennis courts and dates; and ORDER BY to ordered by the time.
+For this question, JOIN is used to get to columns from different tables; WHERE to find the tennis courts and dates; and ORDER BY to order by the time.
 ```
-SELECT b.starttime, facs.name FROM cd.facilities f
+SELECT b.starttime, facs.name 
+FROM cd.facilities f
 INNER JOIN cd.bookings b
   ON f.facid = b.facid
 WHERE	f.name in ('Tennis Court 2','Tennis Court 1') and
@@ -170,10 +171,166 @@ ORDER BY b.starttime;
 
 #### Question 3: How can you output a list of all members, including the individual who recommended them (if any)? Ensure that results are ordered by (surname, firstname).
 
-For this question, LEFT OUTER JOIN is used to get all the first and last names from the member and to get the first and last names of the recommender (is they exist). This means the last out put could be blank.
+For this question, LEFT OUTER JOIN is used to get all the first and last names of the member and to get the first and last names of the recommender (if they exist). This means the last output could be blank.
 ```
-SELECT m.firstname, m.surname, r.firstname, r.surname FROM cd.members m
+SELECT m.firstname, m.surname, r.firstname, r.surname 
+FROM cd.members m
 LEFT OUTER JOIN cd.members r
   ON r.memid = m.recommendedby
 ORDER BY m.surname, m.firstname 
+```
+
+#### Question 4: How can you output a list of all members who have recommended another member? Ensure that there are no duplicates in the list, and that results are ordered by (surname, firstname).
+
+For this question, INNER JOIN is used to ensure that there are no duplicates in the list.
+```
+SELECT distinct r.firstname, r.surname
+FROM cd.members m
+INNER JOIN cd.members r
+	ON r.memid = m.recommendedby
+ORDER BY surname, firstname       
+```
+
+#### Question 5: How can you output a list of all members, including the individual who recommended them (if any), without using any joins? Ensure that there are no duplicates in the list, and that each firstname + surname pairing is formatted as a column and ordered.
+
+For this question, a subquery is used to get the names of the recommenders and the CONCAT function is to format the first name and surname as a column.
+```
+SELECT DISTINCT(CONCAT(m.firstname,' ',m.surname)) as member,
+	(SELECT CONCAT(r.firstname,' ',r.surname) as recommender 
+	 FROM cd.members r 
+		where recs.memid = mems.recommendedby)
+FROM cd.members m
+ORDER BY member     
+```
+
+## Aggregation
+
+#### Question 1: Produce a count of the number of recommendations each member has made. Order by member ID.
+
+For this question, GROUP BY is needed to count the recommendation of each recommender.
+```
+SELECT recommendedby, COUNT(recommendedby)
+FROM cd.members
+WHERE recommendedby IS NOT NULL
+GROUP BY recommendedby
+ORDER BY recommendedby   
+```
+
+#### Question 2: Produce a list of the total number of slots booked per facility. For now, just produce an output table consisting of facility id and slots, sorted by facility id.
+
+For this question, GROUP BY is needed to SUM the slots per facility.
+```
+SELECT facid, SUM(slots)
+FROM cd.bookings
+GROUP BY facid
+ORDER BY facid 
+```
+
+#### Question 3: Produce a list of the total number of slots booked per facility in the month of September 2012. Produce an output table consisting of facility id and slots, sorted by the number of slots.
+
+This question is similar to the previous one, except that a WHERE clause is needed to filter the data into September.
+```
+SELECT facid, SUM(slots)
+FROM cd.bookings
+WHERE starttime >= '2012-09-01' and starttime < '2012-10-01'
+GROUP BY facid
+ORDER BY SUM(slots)
+```
+
+#### Question 4: Produce a list of the total number of slots booked per facility per month in the year of 2012. Produce an output table consisting of facility id and slots, sorted by the id and month.
+
+For this question, the EXTRACT function to get the month and year from the star time.
+```
+SELECT facid, EXTRACT(MONTH from starttime), SUM(slots)
+FROM cd.bookings
+WHERE EXTRACT(YEAR from starttime) = 2012
+GROUP BY facid, month
+ORDER BY facid, month;  
+```
+
+#### Question 5: Find the total number of members (including guests) who have made at least one booking.
+
+For this question, counting the member ids of the bookings table will give us the result.
+```
+SELECT COUNT(DISTINCT memid) FROM cd.bookings     
+```
+
+#### Question 6: Produce a list of each member name, id, and their first booking after September 1st 2012. Order by member ID.
+
+For this question, the MIN function with GROUP BY are nedeed to get the first booking; the INNER JOIN, to get the data from both tables; and the WHERE clause to get the date requested. 
+```
+SELECT m.surname, m.firstname, m.memid, MIN(b.starttime)
+FROM cd.bookings b
+INNER JOIN cd.members m 
+	ON m.memid = b.memid
+WHERE starttime >= '2012-09-01'
+GROUP BY m.surname, m.firstname, m.memid
+ORDER BY m.memid
+```
+
+#### Question 7: Produce a list of member names, with each row containing the total member count. Order by join date, and include guest members.
+
+For this question, a window function is requiered to get the correct count of columns. 
+```
+SELECT COUNT(*) over(), firstname, surname
+FROM cd.members
+ORDER BY joindate  
+```
+
+#### Question 8: Produce a monotonically increasing numbered list of members (including guests), ordered by their date of joining. Remember that member IDs are not guaranteed to be sequential.
+
+For this question, a window function ordered by the join date will give te expected result. 
+```
+SELECT row_number() over(order by joindate), firstname, surname
+FROM cd.members
+ORDER BY joindate  
+```
+
+#### Question 9: 
+
+For this question, the result can be obtained by the following query and using LIMIT to get the first row 
+```
+SELECT facid, SUM(slots) AS "Total"
+FROM cd.bookings
+GROUP BY facid
+ORDER BY "Total" desc
+LIMIT 1
+```
+or it could be achieved using a window function.
+```
+SELECT facid, total 
+FROM ( SELECT facid, sum(slots) total, rank() over (order by sum(slots) desc) rank
+        FROM cd.bookings
+	GROUP BY facid
+	) as ranked
+WHERE rank = 1 
+```
+
+## String
+
+#### Question 1: 
+
+For this question, CONCAT is used to join strings.
+```
+SELECT CONCAT(surname,', ',firstname)
+FROM cd.members
+```
+
+#### Question 2: You've noticed that the club's member table has telephone numbers with very inconsistent formatting. You'd like to find all the telephone numbers that contain parentheses, returning the member ID and telephone number sorted by member ID.
+
+For this question, the % in the WHERE clause is used to find the telephone numbers that start and have a parentheses between numbers.
+```
+SELECT memid, telephone
+FROM  cd.members
+WHERE telephone LIKE '(%' AND telephone LIKE '%)%'
+```
+
+#### Question 3: 
+
+For this question, the SUBSTR function is used to extract each letter for all the surnames.
+```
+SELECT SUBSTR(surname,1,1), COUNT(*) 
+FROM cd.members
+GROUP BY letter
+ORDER BY letter   
 ```
