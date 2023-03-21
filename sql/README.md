@@ -1,5 +1,7 @@
 # Introduction
 
+This are SQL query questions I have done so I can master SQL.
+
 ## SQL Queries
 
 ### Table Setup (DDL)
