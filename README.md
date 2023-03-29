@@ -1,6 +1,6 @@
 # Ignacio Soto . Jarvis Consulting
 
-Business Systems Analyst with more than 2 years of experience working closely with business and technical stakeholders and understanding business needs, identifying requirements, and designing and implementing technology solutions. As for my educational background, I have a bachelor's degree in Systems Engineer, a postgraduate certificate in Business Analytics and Insights, and a certificate in Data Science. On my free time, I like to take courses to learn more about business analysis, pay video games, and during the weekend I play soccer for a team in a competitive league.
+Business Systems Analyst with more than 2 years of experience working closely with business and technical stakeholders and understanding business needs, identifying requirements, and designing and implementing technology solutions. As for my educational background, I have a bachelor's degree in Systems Engineer, a postgraduate certificate in Business Analytics and Insights, and a certificate in Data Science. On my free time, I like to take courses to learn more about business analysis, play video games, and during the weekend I play soccer for a team in a competitive league.
 
 ## Skills
 
@@ -27,6 +27,10 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 **Business Systems Analyst, Jarvis Consulting Group (2023-present)**: Analyzed business processes and information systems identifying areas of improvement to recommend solutions.
 
 **Data and Reporting Analyst, ClaimSecure (2022-2023)**: Provided insightful analysis and reports for ClaimSecure customers and stakeholders support clients, sales and senior managements decisions including marketing initiatives.
+
+**Logistics Data Analyst Summer Intern, DAP Canada (2022)**: Supported core supply chain functions: logistics planning, inventory management, order processing and customer service coordination.
+
+**Operations Data Analyst (2019-2021)**: Designed production reports and dashboards for managers and stakeholders that effectively communicates trends, patterns, and predictions using Power BI.
 
 
 ## Education
