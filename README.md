@@ -1,6 +1,6 @@
 # Ignacio Soto . Jarvis Consulting
 
-Business Systems Analyst with more than 2 years of experience working closely with business and technical stakeholders and understanding business needs, identifying requirements, and designing and implementing technology solutions. As for my educational background, I have a bachelor's degree in Systems Engineer, a postgraduate certificate in Business Analytics and Insights, and a certificate in Data Science.
+Business Systems Analyst with more than 2 years of experience working closely with business and technical stakeholders and understanding business needs, identifying requirements, and designing and implementing technology solutions. As for my educational background, I have a bachelor's degree in Systems Engineer, a postgraduate certificate in Business Analytics and Insights, and a certificate in Data Science. On my free time, I like to take courses to learn more about business analysis, pay video games, and during the weekend I play soccer for a team in a competitive league.
 
 ## Skills
 
@@ -19,7 +19,7 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 
 
 ## Highlighted Projects
-**NA**: Lorem ipsum dolor sit amet. Ut suscipit enim sit dolorem earum cum consequuntur nihil id consequatur quam ab consectetur saepe in voluptatem dolorum. Sit harum nihil ex minima inventore ea aliquid voluptates et minus laborum. Ex autem vitae et optio veniam vel neque sint eos reprehenderit distinctio est distinctio provident a voluptas earum.
+**Credit Score Classification** [[GitHub](https://github.com/ignaciosoto04/Projects/blob/main/Credit_Score_Classification_v2.ipynb)]: Developed a machine learning model that can classify customers' credit scores in a matter of seconds. The machine learning supervised methods used were: Logistic Regression, Decision Tree, Random Forest, Neural Networks, Support Vector Machine, Naïve Bayes, XGBoost. This could generate great profits by giving loans and credits to clients who have a good credit score and knowing that their classification has been analyzed correctly.
 
 
 ## Professional Experiences
@@ -39,7 +39,6 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 
 ## Miscellaneous
 - Data Science - BranStation (2023)
-- NA
 - Soccer player
 - Competitive gaming
 - Volunteer for Community Infrastucture Projects
