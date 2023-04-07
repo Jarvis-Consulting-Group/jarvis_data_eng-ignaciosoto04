@@ -1,4 +1,4 @@
-# JIgnacio Soto . Jarvis Consulting
+# Ignacio Soto . Jarvis Consulting
 
 I am a Business Systems Analyst with more than 2 years of experience working closely with business and technical stakeholders, understanding business needs, identifying requirements, and designing and implementing technology solutions. I have successfully increased process efficiency and improved decision-making using Macros, SQL, Tableau and Power BI. I have experience gathering, interpreting data to solve complex problems, and communicating my findings. As for my educational background, I hold a bachelor's degree in Systems Engineering and a postgraduate certificate in Business Analytics and Insights. On my free time, I  play soccer, video games, and I like to go to the stadiums to see Toronto FC, Blue Jays, Maple Leafs, and Raptors.
 
@@ -34,12 +34,11 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 
 
 ## Education
-**Centennial College (2022-2023)**, Post Graduate Certificate, Business Analytics and Insights
+**Centennial College (2021-2022)**, Post Graduate Certificate, Business Analytics and Insights
 - Graduated with Honors
 - GPA: 3.9
 
 **University of Lima (2014-2018)**, Bachelor's Degree, Systems Engineering
-<<<<<<< HEAD
 - Graduated with Honors
 
 
@@ -50,12 +49,3 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 - Captain of a soccer team in a competitive league.
 - Fan of cooperative video games like CS GO, Fortnite and Fifa Pro Clubs where a team strategy is needed to win.
 - Volunteer for Community Infrastructure Projects: information gathering, planning and construction of houses in low-income areas in Lima, Peru.
-=======
-
-
-## Certificates & Awards & Activities
-- Data Science course - BranStation (2023): extensive training in Python using Numpy and Pandas.
-- Captain of a soccer team in a competitive league.
-- Fan of cooperative video games like CS GO, Fortnite and Fifa Pro Clubs where a team strategy is needed to win.
-- Volunteer for Community Infrastucture Projects: information gathering, planning and construction of houses in low-income areas in Lima, Peru.
->>>>>>> 6907be7d27d80a1c4d61444f78094aa89817cd99
