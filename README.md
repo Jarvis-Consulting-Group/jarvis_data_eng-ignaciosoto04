@@ -39,6 +39,7 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 - GPA: 3.9
 
 **University of Lima (2014-2018)**, Bachelor's Degree, Systems Engineering
+<<<<<<< HEAD
 - Graduated with Honors
 
 
@@ -49,3 +50,12 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 - Captain of a soccer team in a competitive league.
 - Fan of cooperative video games like CS GO, Fortnite and Fifa Pro Clubs where a team strategy is needed to win.
 - Volunteer for Community Infrastructure Projects: information gathering, planning and construction of houses in low-income areas in Lima, Peru.
+=======
+
+
+## Certificates & Awards & Activities
+- Data Science course - BranStation (2023): extensive training in Python using Numpy and Pandas.
+- Captain of a soccer team in a competitive league.
+- Fan of cooperative video games like CS GO, Fortnite and Fifa Pro Clubs where a team strategy is needed to win.
+- Volunteer for Community Infrastucture Projects: information gathering, planning and construction of houses in low-income areas in Lima, Peru.
+>>>>>>> 6907be7d27d80a1c4d61444f78094aa89817cd99
