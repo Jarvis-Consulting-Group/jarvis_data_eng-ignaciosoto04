@@ -33,6 +33,16 @@
       "description": "The Jarvis team has a Linux cluster of 10 servers running CentOS 7 which are connected through a switch and communicate through IPv4 addresses.The objective of this project is to design and implement a solution that allows recording the hardware specifications of each node and monitoring node resource usage in real-time and stored in a (RDBMS). This solution will help the resource planning team as they will be able to use the data to generate reports. The implementation of the program required to book an elicitation meeting with the stakeholder to create a BRD.",
       "git_url": "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-ignaciosoto04/tree/master/linux_sql",
       "name": "Cluster Monitor"
+    },
+    {
+      "description": "Created tables using SQL DDL statements. Solved 28 SQL exercise questions about create/update/delete statements, joins, aggregation, window and strings function.",
+      "git_url": "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-ignaciosoto04/tree/master/sql",
+      "name": "SQL Project"
+    },
+    {
+      "description": "Created a Business Requirements Document for the Cluster Monitoring Project and a Software Requirements Document for a stock trading application. Scheduled elicitation meetings to gather all the project requirements.",
+      "git_url": "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-ignaciosoto04/tree/master/bsa",
+      "name": "BSA Project"
     }
   ],
   "name": "Ignacio Soto",
@@ -49,7 +59,8 @@
       "bullets": [
         "Captain of a soccer team in a competitive league.",
         "Fan of cooperative video games like CS GO, Fortnite and Fifa Pro Clubs where a team strategy is needed to win.",
-        "Volunteer for Community Infrastructure Projects: information gathering, planning and construction of houses in low-income areas in Lima, Peru."
+        "Volunteer for Community Infrastructure Projects: information gathering, planning and construction of houses in low-income areas in Lima, Peru.",
+        "Mentor at Isempower: help students with the transition to the Canadian environment: immigration, resumes, apply to jobs, interviews and more."
       ],
       "title": "Activities/Hobbies"
     }
@@ -57,8 +68,8 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "DAnalyzed business processes and information systems identifying areas of improvement to recommend solutions. Developed Business and Sofware Requirements Documents with Agile/Scrum methodology.",
-      "duration": "2020-present",
+      "description": "Analyzed business processes and information systems identifying areas of improvement to recommend solutions. Developed Business and Software Requirements Documents with Agile/Scrum methodology.",
+      "duration": "2023-present",
       "title": "Business Systems Analyst"
     },
     {

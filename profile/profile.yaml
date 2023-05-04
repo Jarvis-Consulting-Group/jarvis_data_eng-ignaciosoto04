@@ -39,6 +39,17 @@ jarvis_projects:
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: The Jarvis team has a Linux cluster of 10 servers running CentOS 7 which are connected through a switch and communicate through IPv4 addresses.The objective of this project is to design and implement a solution that allows recording the hardware specifications of each node and monitoring node resource usage in real-time and stored in a (RDBMS). This solution will help the resource planning team as they will be able to use the data to generate reports. The implementation of the program required to book an elicitation meeting with the stakeholder to create a BRD.
+  - name: "SQL Project"
+    git_url: "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-ignaciosoto04/tree/master/sql"
+      # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+      # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Created tables using SQL DDL statements. Solved 28 SQL exercise questions about create/update/delete statements, joins, aggregation, window and strings function.
+  - name: "BSA Project"
+    git_url: "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-ignaciosoto04/tree/master/bsa"
+      # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+      # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Created a Business Requirements Document for the Cluster Monitoring Project and a Software Requirements Document for a stock trading application. Scheduled elicitation meetings to gather all the project requirements.
+
 
 # List of personal or academic projects
 # Feel free to add more projects
@@ -58,9 +69,9 @@ professional_experience:
   #Write your Jarvis role as a professional experience rather than training.
   - title: "Business Systems Analyst"
     company: "Jarvis"
-    duration: "2020-present"
+    duration: "2023-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "DAnalyzed business processes and information systems identifying areas of improvement to recommend solutions. Developed Business and Sofware Requirements Documents with Agile/Scrum methodology."
+    description: "Analyzed business processes and information systems identifying areas of improvement to recommend solutions. Developed Business and Software Requirements Documents with Agile/Scrum methodology."
   - title: "Data and Reporting Analyst"
     company: "ClaimSecure"
     duration: "2022-2023"
@@ -105,3 +116,4 @@ others:
       - "Captain of a soccer team in a competitive league."
       - "Fan of cooperative video games like CS GO, Fortnite and Fifa Pro Clubs where a team strategy is needed to win."
       - "Volunteer for Community Infrastructure Projects: information gathering, planning and construction of houses in low-income areas in Lima, Peru."
+      - "Mentor at Isempower: help students with the transition to the Canadian environment: immigration, resumes, apply to jobs, interviews and more."
