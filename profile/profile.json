@@ -31,17 +31,17 @@
   "jarvis_projects": [
     {
       "description": "The Jarvis team has a Linux cluster of 10 servers running CentOS 7 which are connected through a switch and communicate through IPv4 addresses.The objective of this project is to design and implement a solution that allows recording the hardware specifications of each node and monitoring node resource usage in real-time and stored in a (RDBMS). This solution will help the resource planning team as they will be able to use the data to generate reports. The implementation of the program required to book an elicitation meeting with the stakeholder to create a BRD.",
-      "git_url": "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-ignaciosoto04/tree/master/linux_sql",
+      "git_url": "/linux_sql",
       "name": "Cluster Monitor"
     },
     {
       "description": "Created tables using SQL DDL statements. Solved 28 SQL exercise questions about create/update/delete statements, joins, aggregation, window and strings function.",
-      "git_url": "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-ignaciosoto04/tree/master/sql",
+      "git_url": "/sql",
       "name": "SQL Project"
     },
     {
       "description": "Created a Business Requirements Document for the Cluster Monitoring Project and a Software Requirements Document for a stock trading application. Scheduled elicitation meetings to gather all the project requirements.",
-      "git_url": "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-ignaciosoto04/tree/master/bsa",
+      "git_url": "/bsa",
       "name": "BSA Project"
     }
   ],
