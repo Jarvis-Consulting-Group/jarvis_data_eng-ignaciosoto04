@@ -60,7 +60,11 @@ highlighted_projects:
     git_url: "https://github.com/ignaciosoto04/Projects/blob/main/Credit_Score_Classification_v2.ipynb"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: Developed a machine learning model that can classify customers' credit scores in a matter of seconds. The machine learning supervised methods used were Logistic Regression, Decision Tree, Random Forest, Neural Networks, Support Vector Machine, Naïve Bayes, XGBoost. This could generate great profits by giving loans and credits to clients who have a good credit score and knowing that their classification has been analyzed correctly.
-
+  - name: "Dashboards"
+    #URL is optional
+    git_url: "https://www.mavenanalytics.io/profile/Ignacio-Soto/75078110"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Collected information using SQL queries to create a performance analysis dashboards in Excel and Tableau.
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
