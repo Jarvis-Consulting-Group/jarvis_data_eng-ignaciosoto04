@@ -25,6 +25,8 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 ## Highlighted Projects
 **Credit Score Classification** [[GitHub](https://github.com/ignaciosoto04/Projects/blob/main/Credit_Score_Classification_v2.ipynb)]: Developed a machine learning model that can classify customers' credit scores in a matter of seconds. The machine learning supervised methods used were Logistic Regression, Decision Tree, Random Forest, Neural Networks, Support Vector Machine, Naïve Bayes, XGBoost. This could generate great profits by giving loans and credits to clients who have a good credit score and knowing that their classification has been analyzed correctly.
 
+**Dashboards** [[GitHub](https://www.mavenanalytics.io/profile/Ignacio-Soto/75078110)]: Collected information using SQL queries to create a performance analysis dashboards in Excel and Tableau.
+
 
 ## Professional Experiences
 
