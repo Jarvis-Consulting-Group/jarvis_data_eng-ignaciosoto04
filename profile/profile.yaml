@@ -1,0 +1,123 @@
+# Preferred name (Characters only)
+name: "Ignacio Soto"
+# Your GitHub repo root URL
+github_repo_root_url: https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-ignaciosoto04
+
+# Introduce yourself, your academic and professional background.
+# What excites you about the software industry and your passion. At least 80 words
+summary: I am a Business Systems Analyst with more than 2 years of experience working closely with business and technical stakeholders, understanding business needs, identifying requirements, and designing and implementing technology solutions. I have successfully increased process efficiency and improved decision-making using Macros, SQL, Tableau and Power BI. I have experience gathering, interpreting data to solve complex problems, and communicating my findings. As for my educational background, I hold a bachelor's degree in Systems Engineering and a postgraduate certificate in Business Analytics and Insights. On my free time, I  play soccer, video games, and I like to go to the stadiums to see Toronto FC, Blue Jays, Maple Leafs, and Raptors.
+
+# Group your skills by level.
+# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+skills:
+  # At least 5 skills
+  proficient:
+    - RDBMS/SQL
+    - Power BI
+    - Tableau
+    - Microsoft Excel
+    - Documentation
+  # At least 5 skills
+  competent:
+    - Python
+    - Git
+    - Google Cloud Platform
+    - Agile
+    - Scrum
+  # At least 5 skills
+  familiar:
+    - Java
+    - Docker
+    - Regex
+    - Linux
+    - R
+
+# List of Jarvis projects
+jarvis_projects:
+  - name: "Cluster Monitor"
+    git_url: "/linux_sql"
+    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: The Jarvis team has a Linux cluster of 10 servers running CentOS 7 which are connected through a switch and communicate through IPv4 addresses.The objective of this project is to design and implement a solution that allows recording the hardware specifications of each node and monitoring node resource usage in real-time and stored in a (RDBMS). This solution will help the resource planning team as they will be able to use the data to generate reports. The implementation of the program required to book an elicitation meeting with the stakeholder to create a BRD.
+  - name: "SQL Project"
+    git_url: "/sql"
+      # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+      # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Created tables using SQL DDL statements. Solved 28 SQL exercise questions about create/update/delete statements, joins, aggregation, window and strings function.
+  - name: "BSA Project"
+    git_url: "/bsa"
+      # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+      # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Created a Business Requirements Document for the Cluster Monitoring Project and a Software Requirements Document for a stock trading application. Scheduled elicitation meetings to gather all the project requirements.
+
+
+# List of personal or academic projects
+# Feel free to add more projects
+highlighted_projects:
+    #project name
+  - name: "Credit Score Classification"
+    #URL is optional
+    git_url: "https://github.com/ignaciosoto04/Projects/blob/main/Credit_Score_Classification_v2.ipynb"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Developed a machine learning model that can classify customers' credit scores in a matter of seconds. The machine learning supervised methods used were Logistic Regression, Decision Tree, Random Forest, Neural Networks, Support Vector Machine, Naïve Bayes, XGBoost. This could generate great profits by giving loans and credits to clients who have a good credit score and knowing that their classification has been analyzed correctly.
+  - name: "Dashboards"
+    #URL is optional
+    git_url: "https://www.mavenanalytics.io/profile/Ignacio-Soto/75078110"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Collected information using SQL queries to create a performance analysis dashboards in Excel and Tableau.
+
+#List of professional experience
+#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+professional_experience:
+  #Write your Jarvis role as a professional experience rather than training.
+  - title: "Business Systems Analyst"
+    company: "Jarvis"
+    duration: "2023-present"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Analyzed business processes and information systems identifying areas of improvement to recommend solutions. Developed Business and Software Requirements Documents with Agile/Scrum methodology."
+  - title: "Data and Reporting Analyst"
+    company: "ClaimSecure"
+    duration: "2022-2023"
+    description: "Investigated and scoped requirements for scheduled and ad hoc analytical and reporting needs for ClaimSecure internal and external clients. Developed, audited, documented, and delivered analysis and reports meeting established deadlines with a goal of 100% accuracy. Participated and supported Team Lead in new strategies and opportunities to increase and optimize customer experiences, revenue generation, ad targeting and other business outcomes."
+  - title: "Logistics Data Analyst Summer Intern"
+    company: "DAP Canada"
+    duration: "2022"
+    description: "Supported core supply chain functions: logistics planning, inventory management, order processing and customer service coordination. Developed daily order delivered reports and dashboards to managers and CEO through Excel and Tableau. Scheduled appointments with carriers and customers warehouses, coordinating delivery according to required dates in the Warehouse Management System."
+  - title: "Operations Data Analyst"
+    company: "Fajitex"
+    duration: "2019-2021"
+    description: "Designed production reports and dashboards for managers and stakeholders that effectively communicates trends, patterns, and predictions using Power BI. Worked with internal teams to identify process improvement opportunities and propose system modifications."
+
+#List of edcuation
+education: 
+  - school_name: "Centennial College"
+    duration: "2021-2022"
+    degree: "Post Graduate Certificate"
+    department: "Business Analytics and Insights"
+    # optional
+    awards_achievements: 
+      - "Graduated with Honors"
+      - "GPA: 3.9"
+  - school_name: "University of Lima"
+    duration: "2014-2018"
+    degree: "Bachelor's Degree"
+    department: "Systems Engineering"
+    awards_achievements:
+      - "Graduated with Honors"
+
+#Optional section
+others:
+    #category
+  - title: "Certificates"
+    #list of items
+    bullets:
+      - "Data Science course - BranStation (2023)"
+      - "Advanced SQL - Kaggle (2022)"
+      - "Excel Associate - Microsoft (2021)"
+  - title: "Activities/Hobbies"
+    bullets:
+      - "Captain of a soccer team in a competitive league."
+      - "Fan of cooperative video games like CS GO, Fortnite and Fifa Pro Clubs where a team strategy is needed to win."
+      - "Volunteer for Community Infrastructure Projects: information gathering, planning and construction of houses in low-income areas in Lima, Peru."
+      - "Mentor at Isempower: help students with the transition to the Canadian environment: immigration, resumes, apply to jobs, interviews and more."
