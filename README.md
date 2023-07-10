@@ -1,12 +1,12 @@
 # Ignacio Soto . Jarvis Consulting
 
-I am a Business Systems Analyst with more than 2 years of experience working closely with business and technical stakeholders, understanding business needs, identifying requirements, and designing and implementing technology solutions. I have successfully increased process efficiency and improved decision-making using Macros, SQL, Tableau and Power BI. I have experience gathering, interpreting data to solve complex problems, and communicating my findings. As for my educational background, I hold a bachelor's degree in Systems Engineering and a postgraduate certificate in Business Analytics and Insights. On my free time, I  play soccer, video games, and I like to go to the stadiums to see Toronto FC, Blue Jays, Maple Leafs, and Raptors.
+I am a Business Systems Analyst with expertise in Agile methodologies, project delivery, and fostering team collaboration. Known for streamlining workflows, improving communication, and accelerating project completion. Demonstrated ability to implement innovative solutions that optimize resource utilization. Excels in analyzing and leveraging data insights to drive targeted marketing effectiveness. Committed to delivering high-quality analysis and reports. As for my educational background, I hold a bachelor's degree in Systems Engineering and a postgraduate certificate in Business Analytics and Insights. On my free time, I play soccer, video games, and I like to go to the stadiums to see Toronto FC, Blue Jays, Maple Leafs, and Raptors.
 
 ## Skills
 
-**Proficient:** RDBMS/SQL, Power BI, Tableau, Microsoft Excel, Documentation
+**Proficient:** RDBMS/SQL, Jira, Confluence, Microsoft Excel, Agile
 
-**Competent:** Python, Git, Google Cloud Platform, Agile, Scrum
+**Competent:** Python, Documentation, Power BI, Tableau, Git
 
 **Familiar:** Java, Docker, Regex, Linux, R
 
@@ -15,11 +15,13 @@ I am a Business Systems Analyst with more than 2 years of experience working clo
 Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-ignaciosoto04](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-ignaciosoto04)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-ignaciosoto04/tree/master/linux_sql)]: The Jarvis team has a Linux cluster of 10 servers running CentOS 7 which are connected through a switch and communicate through IPv4 addresses.The objective of this project is to design and implement a solution that allows recording the hardware specifications of each node and monitoring node resource usage in real-time and stored in a (RDBMS). This solution will help the resource planning team as they will be able to use the data to generate reports. The implementation of the program required to book an elicitation meeting with the stakeholder to create a BRD.
+**Cluster Monitor** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-ignaciosoto04/tree/master/linux_sql)]: Implemented a solution for recording hardware specifications and real-time monitoring of resource usage in a Linux cluster of 10 servers running CentOS 7, resulting in a reduction in resource waste and an increase in overall resource utilization efficiency, benefiting the resource planning team's ability to generate reports and optimize resource allocation.
 
 **SQL Project** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-ignaciosoto04/tree/master/sql)]: Created tables using SQL DDL statements. Solved 28 SQL exercise questions about create/update/delete statements, joins, aggregation, window and strings function.
 
-**BSA Project** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-ignaciosoto04/tree/master/bsa)]: Created a Business Requirements Document for the Cluster Monitoring Project and a Software Requirements Document for a stock trading application. Scheduled elicitation meetings to gather all the project requirements.
+**BSA Project** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-ignaciosoto04/tree/master/bsa)]: Produced comprehensive Business Requirements Document (BRD) and Software Requirements Document (SRD) for multiple projects by conducting scheduled elicitation meetings, resulting in an improvement in project clarity and alignment.
+
+**Python Project** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-ignaciosoto04/tree/master/python_data_analytics/python_data_wrangling/)]: Delivered a proof of concept (POC) project utilizing Python, Jupyter Notebook, Pandas Dataframe, and Numpy to analyze customer shopping behavior, resulting in an increase in targeted marketing effectiveness and a growth in customer engagement.
 
 
 ## Highlighted Projects
@@ -30,13 +32,13 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 
 ## Professional Experiences
 
-**Business Systems Analyst, Jarvis (2023-present)**: Analyzed business processes and information systems identifying areas of improvement to recommend solutions. Developed Business and Software Requirements Documents with Agile/Scrum methodology.
+**Business Systems Analyst, Jarvis (2023-present)**: Developed projects through active contribution to Agile environments using Scrum/Kanban methodologies improving project delivery time and team collaboration. Some of the projects worked on include an implementation of a solution for recording hardware specifications and real-time monitoring of resource usage, a proof of concept (POC) project utilizing Python, Jupyter Notebook, Pandas Dataframe, and Numpy to analyze customer shopping behavior, and the production of comprehensive Business Requirements Document (BRD) and Software Requirements Document (SRD) by conducting scheduled elicitation meetings.
 
-**Data and Reporting Analyst, ClaimSecure (2022-2023)**: Investigated and scoped requirements for scheduled and ad hoc analytical and reporting needs for ClaimSecure internal and external clients. Developed, audited, documented, and delivered analysis and reports meeting established deadlines with a goal of 100% accuracy. Participated and supported Team Lead in new strategies and opportunities to increase and optimize customer experiences, revenue generation, ad targeting and other business outcomes.
+**Data and Reporting Analyst, ClaimSecure (2022-2023)**: Investigated and scoped requirements for scheduled and ad hoc analytical and reporting needs for ClaimSecure internal and external clients, resulting in a 20% reduction in turnaround time for requirement gathering process. Applied established statistical methods, models, and algorithms along with in-depth knowledge of ClaimSecure's business to design clear, concise, and visually appealing analysis and reports, achieving a 95% satisfaction rate among stakeholders. Developed, audited, documented, and delivered completed and approved analysis and reports meeting established deadlines with 100% accuracy, ensuring high-quality deliverables and reducing error rates by 15%. Actively participated in new strategies and opportunities, leveraging data mining and analysis to develop new models such as predictive modeling, resulting in a 30% increase in customer experiences, revenue generation, and ad targeting effectiveness.
 
-**Logistics Data Analyst Summer Intern, DAP Canada (2022)**: Supported core supply chain functions: logistics planning, inventory management, order processing and customer service coordination. Developed daily order delivered reports and dashboards to managers and CEO through Excel and Tableau. Scheduled appointments with carriers and customers warehouses, coordinating delivery according to required dates in the Warehouse Management System.
+**Warehouse Logistics Summer Intern, DAP Canada (2022)**: Scheduled appointments with carriers and customers' warehouses, ensuring on-time delivery and meeting required dates for 100+ shipments. Assisted in processing 150+ customer orders in the Warehouse Management System (WMS), improving order accuracy and efficiency by 20%. Prepared shipping and customs documentation for 200+ shipments, ensuring compliance with regulations and minimizing delays. Identified and resolved 30+ labeling and packaging language issues, ensuring accurate and clear product information for improved customer satisfaction. Assisted in inventory management by accurately receiving, blocking/unblocking, and conducting regular counts, reducing stock discrepancies by 95%.
 
-**Operations Data Analyst, Fajitex (2019-2021)**: Designed production reports and dashboards for managers and stakeholders that effectively communicates trends, patterns, and predictions using Power BI. Worked with internal teams to identify process improvement opportunities and propose system modifications.
+**Operations Data Analyst, Fajitex (2019-2021)**: Successfully negotiated prices and payment methods with suppliers, resulting in a 30% reduction in production costs. Managed the daily production flow and coordinated activities to meet delivery dates with a 95% on-time delivery rate. Designed and implemented production reports and dashboards for managers and stakeholders, providing real-time insights into key performance indicators. Successfully managed and processed an average of 100 purchase and sale orders per month, ensuring accurate documentation and timely fulfillment.
 
 
 ## Education
