@@ -1,0 +1,128 @@
+# Preferred name (Characters only)
+name: "Ignacio Soto"
+# Your GitHub repo root URL
+github_repo_root_url: https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-ignaciosoto04
+
+# Introduce yourself, your academic and professional background.
+# What excites you about the software industry and your passion. At least 80 words
+summary: I am a Business Systems Analyst with expertise in Agile methodologies, project delivery, and fostering team collaboration. Known for streamlining workflows, improving communication, and accelerating project completion. Demonstrated ability to implement innovative solutions that optimize resource utilization. Excels in analyzing and leveraging data insights to drive targeted marketing effectiveness. Committed to delivering high-quality analysis and reports. As for my educational background, I hold a bachelor's degree in Systems Engineering and a postgraduate certificate in Business Analytics and Insights. On my free time, I play soccer, video games, and I like to go to the stadiums to see Toronto FC, Blue Jays, Maple Leafs, and Raptors.
+
+# Group your skills by level.
+# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+skills:
+  # At least 5 skills
+  proficient:
+    - RDBMS/SQL
+    - Jira
+    - Confluence
+    - Microsoft Excel
+    - Agile
+
+  # At least 5 skills
+  competent:
+    - Python
+    - Documentation
+    - Power BI
+    - Tableau
+    - Git
+  # At least 5 skills
+  familiar:
+    - Java
+    - Docker
+    - Regex
+    - Linux
+    - R
+
+# List of Jarvis projects
+jarvis_projects:
+  - name: "Cluster Monitor"
+    git_url: "/linux_sql"
+    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Implemented a solution for recording hardware specifications and real-time monitoring of resource usage in a Linux cluster of 10 servers running CentOS 7, resulting in a reduction in resource waste and an increase in overall resource utilization efficiency, benefiting the resource planning team's ability to generate reports and optimize resource allocation.
+  - name: "SQL Project"
+    git_url: "/sql"
+      # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+      # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Created tables using SQL DDL statements. Solved 28 SQL exercise questions about create/update/delete statements, joins, aggregation, window and strings function.
+  - name: "BSA Project"
+    git_url: "/bsa"
+      # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+      # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Produced comprehensive Business Requirements Document (BRD) and Software Requirements Document (SRD) for multiple projects by conducting scheduled elicitation meetings, resulting in an improvement in project clarity and alignment.
+  - name: "Python Project"
+    git_url: "/python_data_analytics/python_data_wrangling/"
+      # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Delivered a proof of concept (POC) project utilizing Python, Jupyter Notebook, Pandas Dataframe, and Numpy to analyze customer shopping behavior, resulting in an increase in targeted marketing effectiveness and a growth in customer engagement.
+
+# List of personal or academic projects
+# Feel free to add more projects
+highlighted_projects:
+    #project name
+  - name: "Credit Score Classification"
+    #URL is optional
+    git_url: "https://github.com/ignaciosoto04/Projects/blob/main/Credit_Score_Classification_v2.ipynb"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Developed a machine learning model that can classify customers' credit scores in a matter of seconds. The machine learning supervised methods used were Logistic Regression, Decision Tree, Random Forest, Neural Networks, Support Vector Machine, Naïve Bayes, XGBoost. This could generate great profits by giving loans and credits to clients who have a good credit score and knowing that their classification has been analyzed correctly.
+  - name: "Dashboards"
+    #URL is optional
+    git_url: "https://www.mavenanalytics.io/profile/Ignacio-Soto/75078110"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Collected information using SQL queries to create a performance analysis dashboards in Excel and Tableau.
+
+#List of professional experience
+#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+professional_experience:
+  #Write your Jarvis role as a professional experience rather than training.
+  - title: "Business Systems Analyst"
+    company: "Jarvis"
+    duration: "2023-present"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Developed projects through active contribution to Agile environments using Scrum/Kanban methodologies improving project delivery time and team collaboration. Some of the projects worked on include an implementation of a solution for recording hardware specifications and real-time monitoring of resource usage, a proof of concept (POC) project utilizing Python, Jupyter Notebook, Pandas Dataframe, and Numpy to analyze customer shopping behavior, and the production of comprehensive Business Requirements Document (BRD) and Software Requirements Document (SRD) by conducting scheduled elicitation meetings."
+  - title: "Data and Reporting Analyst"
+    company: "ClaimSecure"
+    duration: "2022-2023"
+    description: "Investigated and scoped requirements for scheduled and ad hoc analytical and reporting needs for ClaimSecure internal and external clients, resulting in a 20% reduction in turnaround time for requirement gathering process. Applied established statistical methods, models, and algorithms along with in-depth knowledge of ClaimSecure's business to design clear, concise, and visually appealing analysis and reports, achieving a 95% satisfaction rate among stakeholders. Developed, audited, documented, and delivered completed and approved analysis and reports meeting established deadlines with 100% accuracy, ensuring high-quality deliverables and reducing error rates by 15%. Actively participated in new strategies and opportunities, leveraging data mining and analysis to develop new models such as predictive modeling, resulting in a 30% increase in customer experiences, revenue generation, and ad targeting effectiveness."
+  - title: "Warehouse Logistics Summer Intern"
+    company: "DAP Canada"
+    duration: "2022"
+    description: "Scheduled appointments with carriers and customers' warehouses, ensuring on-time delivery and meeting required dates for 100+ shipments. Assisted in processing 150+ customer orders in the Warehouse Management System (WMS), improving order accuracy and efficiency by 20%. Prepared shipping and customs documentation for 200+ shipments, ensuring compliance with regulations and minimizing delays. Identified and resolved 30+ labeling and packaging language issues, ensuring accurate and clear product information for improved customer satisfaction. Assisted in inventory management by accurately receiving, blocking/unblocking, and conducting regular counts, reducing stock discrepancies by 95%."
+  - title: "Operations Data Analyst"
+    company: "Fajitex"
+    duration: "2019-2021"
+    description: "Successfully negotiated prices and payment methods with suppliers, resulting in a 30% reduction in production costs. Managed the daily production flow and coordinated activities to meet delivery dates with a 95% on-time delivery rate. Designed and implemented production reports and dashboards for managers and stakeholders, providing real-time insights into key performance indicators. Successfully managed and processed an average of 100 purchase and sale orders per month, ensuring accurate documentation and timely fulfillment."
+
+#List of edcuation
+education: 
+  - school_name: "Centennial College"
+    duration: "2021-2022"
+    degree: "Post Graduate Certificate"
+    department: "Business Analytics and Insights"
+    # optional
+    awards_achievements: 
+      - "Graduated with Honors"
+      - "GPA: 3.9"
+  - school_name: "University of Lima"
+    duration: "2014-2018"
+    degree: "Bachelor's Degree"
+    department: "Systems Engineering"
+    awards_achievements:
+      - "Graduated with Honors"
+
+#Optional section
+others:
+    #category
+  - title: "Certificates"
+    #list of items
+    bullets:
+      - "Data Science course - BranStation (2023)"
+      - "Advanced SQL - Kaggle (2022)"
+      - "Excel Associate - Microsoft (2021)"
+  - title: "Activities/Hobbies"
+    bullets:
+      - "Captain of a soccer team in a competitive league."
+      - "Fan of cooperative video games like CS GO, Fortnite and Fifa Pro Clubs where a team strategy is needed to win."
+      - "Volunteer for Community Infrastructure Projects: information gathering, planning and construction of houses in low-income areas in Lima, Peru."
+      - "Mentor at Isempower: help students with the transition to the Canadian environment: immigration, resumes, apply to jobs, interviews and more."
